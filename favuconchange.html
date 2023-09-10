@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favicon Change Example</title>
+    <link rel="icon" id="favicon" href="default-favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Favicon Change Example</h1>
+    <p>Click the button to change the favicon:</p>
+    
+    <button id="changeFaviconBtn">Change Favicon</button>
+    
+    <script>
+        const favicon = document.getElementById("favicon");
+        const changeFaviconBtn = document.getElementById("changeFaviconBtn");
+        
+        const changeFavicon = () => {
+            favicon.href = "new-favicon.ico"; // Change the href to the new favicon image
+        };
+        
+        changeFaviconBtn.addEventListener("click", changeFavicon);
+    </script>
+</body>
+</html>
