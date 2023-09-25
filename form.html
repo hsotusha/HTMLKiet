@@ -1,19 +1,161 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>forms in html</title>
-</head>
-<body>
-   <h2>Html Forms</h2>
-   <form action="/action_page.php">
-    <label for="fname">first name</label><br>
-    <input type="text" id="fname"name="fname" value=" "><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value=""><br><br>
-    <input type="submit" value="submit">
-   </form> 
-  <p>if you click the"submit" button, the form data will be sent to a page called"/action_page.php</p>
-</body>
+<html>
+	<head>
+		<title>Input Tag Demo</title>
+	</head>
+
+	<body>
+	
+		<form action="#" method="POST" >
+		
+			<table width="70%" align="center" bgcolor="hotpink" > 
+				<tr>
+					<td>Name</td>
+					<td><input type="text" maxlength="10"  placeholder="Your Name" id="name" Name="name" title="Enter your Name" required  />  </td>
+				</tr>
+				<tr>
+					<td>E-Mail</td>
+					<td><input type="email"  placeholder="Your E-Mail" required />  </td>
+				</tr>
+				
+				<tr>
+					<td>Password</td>
+					<td><input type="password"  />  </td>
+				</tr>
+				
+				<tr>
+					<td>Date of Birth</td>
+					<td><input type="Date"  />  </td>
+				</tr>
+				
+				<tr>
+					<td>Time of Birth</td>
+					<td><input type="Time"  />  </td>
+				</tr>
+				
+				<tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" Name="gen" value="male"  /> Male 
+						<input type="radio" Name="gen" value="female"  /> FeMale 
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Course</td>
+					<td>
+						<input type="radio" Name="course" value="bba"  /> BBA 
+						<input type="radio" Name="course"  value="bca"  /> BCA 
+						<input type="radio" Name="course"  value="mca"  /> MCA 
+						<input type="radio" Name="course"  value="mba"  /> MBA 
+					</td>
+				</tr>
+				<tr>
+					<td>Document </td>
+					<td>
+						<input type="checkbox" Name="docs" value="hm"  /> HIgh Marksheet 
+						<input type="checkbox" Name="docs"  value="hc"  /> HIgh Certificates 
+						<input type="checkbox" Name="docs"  value="im"  /> Intermediate Marksheet 
+						<input type="checkbox" Name="docs"  value="ic"  /> Intermediate  Certificates
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Resume</td>
+					<td><input type="file"  />  </td>
+				</tr>
+				
+				<tr>
+					<td>Range</td>
+					<td><input type="range"  />  </td>
+				</tr>
+				<tr>
+					<td>Images</td>
+					<td><input type="image"  />  </td>
+				</tr>
+				<tr>
+					<td>MOnth</td>
+					<td><input type="month"  />  </td>
+				</tr>
+				<tr>
+					<td>week</td>
+					<td><input type="week"  />  </td>
+				</tr>
+				<tr>
+					<td>Number</td>
+					<td><input type="number"  />  </td>
+				</tr>
+				<tr>
+					<td>Search</td>
+					<td><input type="search"  />  </td>
+				</tr>
+				<tr>
+					<td>Color</td>
+					<td><input type="color"  />  </td>
+				</tr>
+				<tr>
+					<td>Telephone</td>
+					<td><input type="tel"  />  </td>
+				</tr>
+				<tr>
+					<td>URL</td>
+					<td><input type="url"  />  </td>
+				</tr>
+				<tr>
+					<td>Hidden</td>
+					<td><input type="hidden"  />  </td>
+				</tr>	
+				<tr>
+					<td>Textarea</td>
+					<td>
+						<textarea cols="25" rows="5" >
+						
+						</textarea>
+
+					</td>
+				</tr>	
+				<tr>
+					<td>select</td>
+					<td>
+						<select>
+							<option selected="true" value="">Choose City</option>
+							
+							<option value="hapur">Hapur</option>
+							<option value="Delhi">Delhi</option>
+							<option value="noida">noida</option>
+							<option value="ghaziabad">ghaziabad</option>
+							<option value="garh">garh</option>
+							<option value="meerut">meerut</option>
+							<option value="hapur">Hapur</option>
+							
+							<option value="Delhi">Delhi</option>
+							<option value="noida">noida</option>
+							<option value="ghaziabad">ghaziabad</option>
+							<option value="garh">garh</option>
+							<option value="meerut">meerut</option>
+							<option value="hapur">Hapur</option>
+							<option value="Delhi">Delhi</option>
+							<option value="noida">noida</option>
+							<option value="ghaziabad">ghaziabad</option>
+							<option value="garh">garh</option>
+							<option value="meerut">meerut</option>
+							
+						</select>
+
+					</td>
+				</tr>
+				
+				<tr>
+					<td></td>
+					<td>
+						<input type="reset" value="Reset Now"    /> 
+						<input type="button" value="Button"    /> 
+						<input type="submit" value="Submit"    /> 
+
+					</td>
+				</tr>
+			</table>
+		
+		</form>
+	</body>
+
 </html>
